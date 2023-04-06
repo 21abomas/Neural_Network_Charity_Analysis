@@ -27,3 +27,8 @@ Using the preprocessed data from Deliverable 1, a neural network is designed to 
 * Create a callback that saves the model's weights every 5 epochs,
 * Evaluate the model using the test data to determine the loss and accuracy and finally
 * Save and export the results to an HDF5 file, and name it AlphabetSoupCharity.h5.
+
+### Optimize the Model
+
+In Deliverable 3, the goal is to optimize the model to achieve an accuracy greater than 75%. 
+unfortunatly This model was unable to achieve the aim of 75% accuracy and did not appear to respond to modifications.Overall, implementing a combination of PCA, other models, and feature engineering techniques can help to improve the accuracy of the current model and make more accurate predictions
