@@ -16,3 +16,14 @@ The first step in this project is to preprocess the dataset in order to compile,
 * Generate a list of categorical variables and encode them using one-hot encoding.
 * Merge the one-hot encoding DataFrame with the original DataFrame, and drop the originals.
 * Standardize numerical variables using Scikit-Learn’s StandardScaler class, then scale the data.
+
+### Compile, Train, and Evaluate the Model
+
+Using the preprocessed data from Deliverable 1, a neural network is designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. The following steps are performed in the AlphabetSoupCharity.ipynb file:
+
+* Create a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras,
+* Create the first hidden layer and choose an appropriate activation function,
+* Compile and train the model,
+* Create a callback that saves the model's weights every 5 epochs,
+* Evaluate the model using the test data to determine the loss and accuracy and finally
+* Save and export the results to an HDF5 file, and name it AlphabetSoupCharity.h5.
